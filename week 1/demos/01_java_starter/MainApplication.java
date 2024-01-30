@@ -4,6 +4,11 @@ public class MainApplication{
 
         System.out.println("Things I've Learned");
         System.out.println("-------------------");
+
+        String name = "Gregor";
+        int age = 49;
+        double cashOnHand = 0.25;
+
     }
 
 }
