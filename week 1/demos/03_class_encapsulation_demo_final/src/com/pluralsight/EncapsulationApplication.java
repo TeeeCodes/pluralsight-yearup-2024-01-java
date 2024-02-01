@@ -4,7 +4,7 @@ public class EncapsulationApplication
 {
     public static void main(String[] args)
     {
-
+        int number = 5;
         Person person1;
         person1 = new Person();
 
@@ -15,8 +15,8 @@ public class EncapsulationApplication
 //        person1.age = 49;
 
         // we need to use the getters and setters
-        person1.setName("Gregor");
-        person1.setAge(49);
+//        person1.setName("Gregor");
+//        person1.setAge(49);
 
         System.out.println(person1.getName() + " is " + person1.getAge());
 

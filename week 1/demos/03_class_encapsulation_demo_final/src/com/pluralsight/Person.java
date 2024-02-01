@@ -6,6 +6,12 @@ public class Person
     private String name;
     private int age;
 
+//    Constructor
+    public Person () {
+        name = "Joe";
+        age = 22;
+    }
+
     // properties
     public String getName()
     {
